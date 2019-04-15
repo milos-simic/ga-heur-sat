@@ -36,5 +36,5 @@ If `theJarFile` is the jar file with all the classes from this project, the soft
     Total number of iterations: 0
     Duration (seconds): 0.44891
 
-The lines are in the format `description:value`. The first time and iteration of the BFS (the best found solution) refer to the timing and iteration when the algorithm found the solution with which it finished its execution and which was better than all the other solutions it constructed.
+The lines are in the format `description: value`. The first time and iteration of the BFS (the best found solution) refer to the timing and iteration when the algorithm found the solution with which it finished its execution and which was better than all the other solutions it constructed.
 
