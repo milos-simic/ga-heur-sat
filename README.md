@@ -29,12 +29,12 @@ If `theJarFile` is the jar file with all the classes from this project, the soft
 
 ## Example of the output
 
-The best found solution: [1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1]
-The best found value: 1.00000
-The first iteration of BFS: 0
-Time of the best found solution (seconds): 0.44888
-Total number of iterations: 0
-Duration (seconds): 0.44891
+    The best found solution: [1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1]
+    The best found value: 1.00000
+    The first iteration of BFS: 0
+    Time of the best found solution (seconds): 0.44888
+    Total number of iterations: 0
+    Duration (seconds): 0.44891
 
 The lines are in the format `description:value`. The first time and iteration of the BFS (the best found solution) refer to the timing and iteration when the algorithm found the solution with which it finished its execution and which was better than all the other solutions it constructed.
 
