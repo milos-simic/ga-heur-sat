@@ -23,9 +23,9 @@ The main class in Starter in the package run. Its arguments are presented in the
 
 ## Example of usage
 
-If `theJarFile` is the jar file with all the classes from this project, the software can be used like this:
+If `theJarFile` is the jar file with all the classes from this project, where the class `Starter` has been indentified as the entry point, the software can be used like this from the command line:
 
-`--Meta GA --Heur flip --Npop 66 --Ncross 34 --IndMut 0.31 --GeneMut 0.28 --MNI 107 --seed 1 --instance uf50-01.cnf`
+`java -jar theJarFile --Meta GA --Heur flip --Npop 66 --Ncross 34 --IndMut 0.31 --GeneMut 0.28 --MNI 107 --seed 1 --instance uf50-01.cnf`
 
 ## Example of the output
 
