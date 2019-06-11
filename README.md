@@ -1,9 +1,9 @@
 # ga-heur-sat
-SAT solvers which guide WalkSAT, FLIP and SLS heuristics with Genetic Algorihm and its Placebo.
+SAT solvers which guide the WalkSAT, FLIP and SLS heuristics with Genetic Algorithm and its Placebo.
 
 ## Arguments
 
-The main class is `Starter` in the package run. Its arguments are presented in the following table:
+The main class is `Starter` in the package run. Its `main` method's arguments are presented in the following table:
 
 | Switch    | Allowed values       | Default value | Meaning | Note |
 |-----------|----------------------|---------|---------------|------|
