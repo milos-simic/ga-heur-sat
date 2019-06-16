@@ -21,7 +21,7 @@ public class Flip extends Heuristic {
 		int[] solutionCopy = solution.clone();
 		int improvement = 1;
 		while (improvement > 0 && !formula.isSatisfiedBy(solutionCopy)) {
-			// The improvement is the decrease in the number of satisfied clauses.
+			// The improvement is the decrease in the number of unsatisfied clauses.
 			improvement = 0;
 			for (int letter : letters) {
 				int unsatisfiedBefore = formula.getNumberOfUnsatisfied(solutionCopy);
